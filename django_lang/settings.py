@@ -123,8 +123,7 @@ from django.utils.translation import gettext_lazy as _
 
 LANGUAGES = (
     ('en', _('English')),
-    ('fr', _('French')),
-    ('es', _('Spanish')),
+    ('bn', _('Bangla')),
 )
 
 LOCALE_PATHS = [
@@ -133,9 +132,9 @@ LOCALE_PATHS = [
 
 PARLER_LANGUAGES = {
     None: (
-        {'code': 'en',}, # English
-        {'code': 'fr',}, # French
-        {'code': 'es',}, # Spanish
+        {'code': 'en',}, 
+        {'code': 'bn',}, 
+
     ),
     'default': {
         'fallbacks': ['en'],
